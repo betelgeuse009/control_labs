@@ -1,0 +1,198 @@
+[0.000000] (-) TimerEvent: {}
+[0.000316] (unicycle_sim) JobQueued: {'identifier': 'unicycle_sim', 'dependencies': OrderedDict()}
+[0.002359] (unicycle_sim) JobStarted: {'identifier': 'unicycle_sim'}
+[0.025121] (unicycle_sim) JobProgress: {'identifier': 'unicycle_sim', 'progress': 'cmake'}
+[0.026431] (unicycle_sim) JobProgress: {'identifier': 'unicycle_sim', 'progress': 'build'}
+[0.027899] (unicycle_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/build/unicycle_sim', '--', '-j8', '-l8'], 'cwd': '/home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/build/unicycle_sim', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'AI_AGENT': 'claude-code_2-1-274_agent', 'USER': 'betelgeuse', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'LC_TIME': 'it_IT.UTF-8', 'STARSHIP_SHELL': 'zsh', 'GIT_EDITOR': 'true', 'XDG_SESSION_TYPE': 'x11', 'CLAUDE_CODE_SESSION_ATTENDED': '1', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '3', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'CLAUDE_CODE_MESSAGING_TOKEN': '938bddefb4f5e81c93987662372ad26a', 'LESS': '-R', 'HOME': '/home/betelgeuse', 'TERMINFO': '/usr/lib/kitty/terminfo', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'KITTY_INSTALLATION_DIR': '/usr/lib/kitty', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'ZSH': '/home/betelgeuse/.oh-my-zsh', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/kitty.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'less', 'CLAUDE_CODE_CHILD_SESSION': '1', 'LC_MONETARY': 'it_IT.UTF-8', 'KITTY_PID': '4310', 'MANAGERPID': '2552', 'SYSTEMD_EXEC_PID': '2899', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/betelgeuse/miniconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4310', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/betelgeuse/AD-SEM/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'betelgeuse', 'WINDOWID': '50331662', 'JOURNAL_STREAM': '8:23140', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'KITTY_PUBLIC_KEY': '1:cQS~IpE0kAlo3zG8OZwNkdxMiP$AuXfc9y{@c^1D', 'USERNAME': 'betelgeuse', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/home/betelgeuse/.local/bin:/home/betelgeuse/bin:/home/betelgeuse/miniconda3/condabin:/opt/ros/jazzy/bin:/home/betelgeuse/.cargo/bin:/home/betelgeuse/.local/bin:/home/betelgeuse/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/nvim-linux-x86_64/bin:/home/betelgeuse/bin:/opt/nvim-linux-x86_64/bin:/home/betelgeuse/bin', 'SESSION_MANAGER': 'local/T480s:@/tmp/.ICE-unix/2867,unix/T480s:/tmp/.ICE-unix/2867', 'INVOCATION_ID': '0f5bafa7309e46ee9e7c1bcdf32b92d3', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'it_IT.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'CLAUDE_EFFORT': 'high', 'DISPLAY': ':1', 'CLAUDE_PID': '11440', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'it_IT.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/betelgeuse/AD-SEM/install/shared_objects:/home/betelgeuse/AD-SEM/install/juno_bringup:/home/betelgeuse/AD-SEM/install/ad_juno:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/betelgeuse/miniconda3/bin/python', 'SHELL': '/usr/bin/zsh', 'LC_NAME': 'it_IT.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'CLAUDE_CODE_SESSION_ID': '2bd33dea-7504-42b2-a3e9-e890d8e21b3d', 'KITTY_WINDOW_ID': '1', 'CLAUDECODE': '1', 'LC_MEASUREMENT': 'it_IT.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/betelgeuse/miniconda3/bin/conda', 'LC_IDENTIFICATION': 'it_IT.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/build/unicycle_sim', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/betelgeuse/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/betelgeuse/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'CLAUDE_CODE_EXECPATH': '/home/betelgeuse/.local/share/claude/versions/2.1.274', 'STARSHIP_SESSION_KEY': '1724090601370111', 'PYTHONPATH': '/home/betelgeuse/AD-SEM/build/shared_objects/src:/home/betelgeuse/AD-SEM/install/shared_objects/lib/python3.12/site-packages:/home/betelgeuse/AD-SEM/build/ad_juno:/home/betelgeuse/AD-SEM/install/ad_juno/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages', 'LC_NUMERIC': 'it_IT.UTF-8', 'LC_PAPER': 'it_IT.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CLAUDE_CODE_MESSAGING_SOCKET': '/run/user/1000/cc-socks/11440.sock', 'CMAKE_PREFIX_PATH': '/home/betelgeuse/AD-SEM/install/juno_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/betelgeuse/AD-SEM/install/shared_objects:/home/betelgeuse/AD-SEM/install/ad_juno:/opt/ros/jazzy'}), 'shell': False}
+[0.099104] (-) TimerEvent: {}
+[0.165037] (unicycle_sim) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/unicycle_simulator.dir/src/unicycle_simulator_node.cpp.o\n'}
+[0.199320] (-) TimerEvent: {}
+[0.299745] (-) TimerEvent: {}
+[0.400068] (-) TimerEvent: {}
+[0.500268] (-) TimerEvent: {}
+[0.600508] (-) TimerEvent: {}
+[0.700763] (-) TimerEvent: {}
+[0.801055] (-) TimerEvent: {}
+[0.901280] (-) TimerEvent: {}
+[1.001575] (-) TimerEvent: {}
+[1.101761] (-) TimerEvent: {}
+[1.201990] (-) TimerEvent: {}
+[1.302225] (-) TimerEvent: {}
+[1.402461] (-) TimerEvent: {}
+[1.502720] (-) TimerEvent: {}
+[1.602939] (-) TimerEvent: {}
+[1.703142] (-) TimerEvent: {}
+[1.803393] (-) TimerEvent: {}
+[1.903602] (-) TimerEvent: {}
+[2.003847] (-) TimerEvent: {}
+[2.104076] (-) TimerEvent: {}
+[2.204350] (-) TimerEvent: {}
+[2.304597] (-) TimerEvent: {}
+[2.404833] (-) TimerEvent: {}
+[2.505086] (-) TimerEvent: {}
+[2.605339] (-) TimerEvent: {}
+[2.705588] (-) TimerEvent: {}
+[2.805818] (-) TimerEvent: {}
+[2.906042] (-) TimerEvent: {}
+[3.006245] (-) TimerEvent: {}
+[3.106511] (-) TimerEvent: {}
+[3.206755] (-) TimerEvent: {}
+[3.306986] (-) TimerEvent: {}
+[3.407239] (-) TimerEvent: {}
+[3.507596] (-) TimerEvent: {}
+[3.607844] (-) TimerEvent: {}
+[3.708130] (-) TimerEvent: {}
+[3.808387] (-) TimerEvent: {}
+[3.908640] (-) TimerEvent: {}
+[4.008861] (-) TimerEvent: {}
+[4.109103] (-) TimerEvent: {}
+[4.209346] (-) TimerEvent: {}
+[4.309584] (-) TimerEvent: {}
+[4.409765] (-) TimerEvent: {}
+[4.509997] (-) TimerEvent: {}
+[4.610242] (-) TimerEvent: {}
+[4.710466] (-) TimerEvent: {}
+[4.810697] (-) TimerEvent: {}
+[4.911392] (-) TimerEvent: {}
+[5.011946] (-) TimerEvent: {}
+[5.112294] (-) TimerEvent: {}
+[5.212545] (-) TimerEvent: {}
+[5.312791] (-) TimerEvent: {}
+[5.412998] (-) TimerEvent: {}
+[5.513282] (-) TimerEvent: {}
+[5.613602] (-) TimerEvent: {}
+[5.713849] (-) TimerEvent: {}
+[5.814083] (-) TimerEvent: {}
+[5.914316] (-) TimerEvent: {}
+[6.014543] (-) TimerEvent: {}
+[6.114761] (-) TimerEvent: {}
+[6.214992] (-) TimerEvent: {}
+[6.315229] (-) TimerEvent: {}
+[6.415495] (-) TimerEvent: {}
+[6.515766] (-) TimerEvent: {}
+[6.616021] (-) TimerEvent: {}
+[6.716294] (-) TimerEvent: {}
+[6.816606] (-) TimerEvent: {}
+[6.916877] (-) TimerEvent: {}
+[7.017143] (-) TimerEvent: {}
+[7.117398] (-) TimerEvent: {}
+[7.217650] (-) TimerEvent: {}
+[7.317925] (-) TimerEvent: {}
+[7.418212] (-) TimerEvent: {}
+[7.518454] (-) TimerEvent: {}
+[7.618702] (-) TimerEvent: {}
+[7.718902] (-) TimerEvent: {}
+[7.819154] (-) TimerEvent: {}
+[7.919407] (-) TimerEvent: {}
+[8.019625] (-) TimerEvent: {}
+[8.119937] (-) TimerEvent: {}
+[8.220196] (-) TimerEvent: {}
+[8.320463] (-) TimerEvent: {}
+[8.420713] (-) TimerEvent: {}
+[8.520948] (-) TimerEvent: {}
+[8.621239] (-) TimerEvent: {}
+[8.721525] (-) TimerEvent: {}
+[8.821794] (-) TimerEvent: {}
+[8.922047] (-) TimerEvent: {}
+[9.022289] (-) TimerEvent: {}
+[9.122529] (-) TimerEvent: {}
+[9.222783] (-) TimerEvent: {}
+[9.323047] (-) TimerEvent: {}
+[9.423322] (-) TimerEvent: {}
+[9.523539] (-) TimerEvent: {}
+[9.623724] (-) TimerEvent: {}
+[9.723917] (-) TimerEvent: {}
+[9.824135] (-) TimerEvent: {}
+[9.924363] (-) TimerEvent: {}
+[10.024559] (-) TimerEvent: {}
+[10.124768] (-) TimerEvent: {}
+[10.225024] (-) TimerEvent: {}
+[10.325218] (-) TimerEvent: {}
+[10.425510] (-) TimerEvent: {}
+[10.525756] (-) TimerEvent: {}
+[10.625977] (-) TimerEvent: {}
+[10.726221] (-) TimerEvent: {}
+[10.826422] (-) TimerEvent: {}
+[10.926674] (-) TimerEvent: {}
+[11.026887] (-) TimerEvent: {}
+[11.127146] (-) TimerEvent: {}
+[11.227387] (-) TimerEvent: {}
+[11.327743] (-) TimerEvent: {}
+[11.428017] (-) TimerEvent: {}
+[11.528246] (-) TimerEvent: {}
+[11.628474] (-) TimerEvent: {}
+[11.728940] (-) TimerEvent: {}
+[11.829414] (-) TimerEvent: {}
+[11.929758] (-) TimerEvent: {}
+[12.029999] (-) TimerEvent: {}
+[12.130257] (-) TimerEvent: {}
+[12.230480] (-) TimerEvent: {}
+[12.330752] (-) TimerEvent: {}
+[12.431003] (-) TimerEvent: {}
+[12.531233] (-) TimerEvent: {}
+[12.631452] (-) TimerEvent: {}
+[12.731732] (-) TimerEvent: {}
+[12.832030] (-) TimerEvent: {}
+[12.932576] (-) TimerEvent: {}
+[13.032990] (-) TimerEvent: {}
+[13.133252] (-) TimerEvent: {}
+[13.233469] (-) TimerEvent: {}
+[13.333687] (-) TimerEvent: {}
+[13.433896] (-) TimerEvent: {}
+[13.534119] (-) TimerEvent: {}
+[13.634506] (-) TimerEvent: {}
+[13.734998] (-) TimerEvent: {}
+[13.835256] (-) TimerEvent: {}
+[13.935466] (-) TimerEvent: {}
+[14.035694] (-) TimerEvent: {}
+[14.135892] (-) TimerEvent: {}
+[14.236121] (-) TimerEvent: {}
+[14.336354] (-) TimerEvent: {}
+[14.436597] (-) TimerEvent: {}
+[14.536844] (-) TimerEvent: {}
+[14.637077] (-) TimerEvent: {}
+[14.737310] (-) TimerEvent: {}
+[14.837548] (-) TimerEvent: {}
+[14.937723] (-) TimerEvent: {}
+[15.037932] (-) TimerEvent: {}
+[15.138179] (-) TimerEvent: {}
+[15.238381] (-) TimerEvent: {}
+[15.338646] (-) TimerEvent: {}
+[15.438930] (-) TimerEvent: {}
+[15.539202] (-) TimerEvent: {}
+[15.575947] (unicycle_sim) StdoutLine: {'line': b'[100%] Linking CXX executable unicycle_simulator\n'}
+[15.639432] (-) TimerEvent: {}
+[15.739756] (-) TimerEvent: {}
+[15.839949] (-) TimerEvent: {}
+[15.940184] (-) TimerEvent: {}
+[16.040434] (-) TimerEvent: {}
+[16.140692] (-) TimerEvent: {}
+[16.240923] (-) TimerEvent: {}
+[16.341143] (-) TimerEvent: {}
+[16.373125] (unicycle_sim) StdoutLine: {'line': b'[100%] Built target unicycle_simulator\n'}
+[16.391452] (unicycle_sim) CommandEnded: {'returncode': 0}
+[16.392441] (unicycle_sim) JobProgress: {'identifier': 'unicycle_sim', 'progress': 'install'}
+[16.408568] (unicycle_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/build/unicycle_sim'], 'cwd': '/home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/build/unicycle_sim', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'AI_AGENT': 'claude-code_2-1-274_agent', 'USER': 'betelgeuse', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'LC_TIME': 'it_IT.UTF-8', 'STARSHIP_SHELL': 'zsh', 'GIT_EDITOR': 'true', 'XDG_SESSION_TYPE': 'x11', 'CLAUDE_CODE_SESSION_ATTENDED': '1', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '3', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'CLAUDE_CODE_MESSAGING_TOKEN': '938bddefb4f5e81c93987662372ad26a', 'LESS': '-R', 'HOME': '/home/betelgeuse', 'TERMINFO': '/usr/lib/kitty/terminfo', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'KITTY_INSTALLATION_DIR': '/usr/lib/kitty', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'ZSH': '/home/betelgeuse/.oh-my-zsh', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/kitty.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'less', 'CLAUDE_CODE_CHILD_SESSION': '1', 'LC_MONETARY': 'it_IT.UTF-8', 'KITTY_PID': '4310', 'MANAGERPID': '2552', 'SYSTEMD_EXEC_PID': '2899', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/betelgeuse/miniconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4310', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/betelgeuse/AD-SEM/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'betelgeuse', 'WINDOWID': '50331662', 'JOURNAL_STREAM': '8:23140', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'KITTY_PUBLIC_KEY': '1:cQS~IpE0kAlo3zG8OZwNkdxMiP$AuXfc9y{@c^1D', 'USERNAME': 'betelgeuse', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/home/betelgeuse/.local/bin:/home/betelgeuse/bin:/home/betelgeuse/miniconda3/condabin:/opt/ros/jazzy/bin:/home/betelgeuse/.cargo/bin:/home/betelgeuse/.local/bin:/home/betelgeuse/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/nvim-linux-x86_64/bin:/home/betelgeuse/bin:/opt/nvim-linux-x86_64/bin:/home/betelgeuse/bin', 'SESSION_MANAGER': 'local/T480s:@/tmp/.ICE-unix/2867,unix/T480s:/tmp/.ICE-unix/2867', 'INVOCATION_ID': '0f5bafa7309e46ee9e7c1bcdf32b92d3', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'it_IT.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'CLAUDE_EFFORT': 'high', 'DISPLAY': ':1', 'CLAUDE_PID': '11440', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'it_IT.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/betelgeuse/AD-SEM/install/shared_objects:/home/betelgeuse/AD-SEM/install/juno_bringup:/home/betelgeuse/AD-SEM/install/ad_juno:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/betelgeuse/miniconda3/bin/python', 'SHELL': '/usr/bin/zsh', 'LC_NAME': 'it_IT.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'CLAUDE_CODE_SESSION_ID': '2bd33dea-7504-42b2-a3e9-e890d8e21b3d', 'KITTY_WINDOW_ID': '1', 'CLAUDECODE': '1', 'LC_MEASUREMENT': 'it_IT.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/betelgeuse/miniconda3/bin/conda', 'LC_IDENTIFICATION': 'it_IT.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/build/unicycle_sim', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/betelgeuse/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/betelgeuse/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'CLAUDE_CODE_EXECPATH': '/home/betelgeuse/.local/share/claude/versions/2.1.274', 'STARSHIP_SESSION_KEY': '1724090601370111', 'PYTHONPATH': '/home/betelgeuse/AD-SEM/build/shared_objects/src:/home/betelgeuse/AD-SEM/install/shared_objects/lib/python3.12/site-packages:/home/betelgeuse/AD-SEM/build/ad_juno:/home/betelgeuse/AD-SEM/install/ad_juno/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages:/usr/local/lib/python3/dist-packages:/usr/local/lib/python3/dist-packages', 'LC_NUMERIC': 'it_IT.UTF-8', 'LC_PAPER': 'it_IT.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CLAUDE_CODE_MESSAGING_SOCKET': '/run/user/1000/cc-socks/11440.sock', 'CMAKE_PREFIX_PATH': '/home/betelgeuse/AD-SEM/install/juno_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/betelgeuse/AD-SEM/install/shared_objects:/home/betelgeuse/AD-SEM/install/ad_juno:/opt/ros/jazzy'}), 'shell': False}
+[16.427703] (unicycle_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.429198] (unicycle_sim) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[16.430883] (unicycle_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/lib/unicycle_sim/unicycle_simulator\n'}
+[16.431878] (unicycle_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/ament_index/resource_index/package_run_dependencies/unicycle_sim\n'}
+[16.432869] (unicycle_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/ament_index/resource_index/parent_prefix_path/unicycle_sim\n'}
+[16.433535] (unicycle_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/unicycle_sim/environment/ament_prefix_path.sh\n'}
+[16.434321] (unicycle_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/unicycle_sim/environment/ament_prefix_path.dsv\n'}
+[16.435355] (unicycle_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/unicycle_sim/environment/path.sh\n'}
+[16.436049] (unicycle_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/unicycle_sim/environment/path.dsv\n'}
+[16.436734] (unicycle_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/unicycle_sim/local_setup.bash\n'}
+[16.437385] (unicycle_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/unicycle_sim/local_setup.sh\n'}
+[16.438027] (unicycle_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/unicycle_sim/local_setup.zsh\n'}
+[16.438773] (unicycle_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/unicycle_sim/local_setup.dsv\n'}
+[16.439381] (unicycle_sim) StdoutLine: {'line': b'-- Symlinking: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/unicycle_sim/package.dsv\n'}
+[16.441301] (-) TimerEvent: {}
+[16.464643] (unicycle_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/ament_index/resource_index/packages/unicycle_sim\n'}
+[16.465530] (unicycle_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/unicycle_sim/cmake/unicycle_simConfig.cmake\n'}
+[16.466260] (unicycle_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/unicycle_sim/cmake/unicycle_simConfig-version.cmake\n'}
+[16.466965] (unicycle_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/unicycle_sim/package.xml\n'}
+[16.470619] (unicycle_sim) CommandEnded: {'returncode': 0}
+[16.541578] (-) TimerEvent: {}
+[16.552432] (unicycle_sim) JobEnded: {'identifier': 'unicycle_sim', 'rc': 0}
+[16.555245] (-) EventReactorShutdown: {}

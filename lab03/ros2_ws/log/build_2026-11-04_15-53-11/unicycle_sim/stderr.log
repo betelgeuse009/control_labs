@@ -1,0 +1,13 @@
+[01m[K/home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/src/unicycle_sim/src/unicycle_simulator_node.cpp:[m[K In member function ‘[01m[Kvoid UnicycleSimulator::[01;32m[KodomTimerCallback[m[K()[m[K’:
+[01m[K/home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/src/unicycle_sim/src/unicycle_simulator_node.cpp:153:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  153 |   [01;31m[Ktf2[m[K::Quaternion q;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/src/unicycle_sim/src/unicycle_simulator_node.cpp:154:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ was not declared in this scope
+  154 |   [01;31m[Kq[m[K.setRPY(0, 0, theta_);
+      |   [01;31m[K^[m[K
+[01m[K/home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/src/unicycle_sim/src/unicycle_simulator_node.cpp:155:31:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  155 |   msg.pose.pose.orientation = [01;31m[Ktf2[m[K::toMsg(q);
+      |                               [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/unicycle_simulator.dir/build.make:76: CMakeFiles/unicycle_simulator.dir/src/unicycle_simulator_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/unicycle_simulator.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

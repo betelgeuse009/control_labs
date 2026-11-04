@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-49e8fb3771e6bfaa7635.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "unicycle_sim",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "unicycle_sim_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unicycle_sim_uninstall-18d12e5586056a17d509.json",
+					"name" : "unicycle_sim_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unicycle_simulator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unicycle_simulator-b4f4ccf5fad0e7827fed.json",
+					"name" : "unicycle_simulator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d5a365c30eb6d9394372.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/build/unicycle_sim",
+		"source" : "/home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/src/unicycle_sim"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

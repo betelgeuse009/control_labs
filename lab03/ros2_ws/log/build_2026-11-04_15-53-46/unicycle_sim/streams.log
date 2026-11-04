@@ -1,0 +1,25 @@
+[0.028s] Invoking command in '/home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/build/unicycle_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/betelgeuse/AD-SEM/install/shared_objects:/home/betelgeuse/AD-SEM/install/ad_juno:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/build/unicycle_sim -- -j8 -l8
+[0.163s] [ 50%] Building CXX object CMakeFiles/unicycle_simulator.dir/src/unicycle_simulator_node.cpp.o
+[15.574s] [100%] Linking CXX executable unicycle_simulator
+[16.371s] [100%] Built target unicycle_simulator
+[16.389s] Invoked command in '/home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/build/unicycle_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/betelgeuse/AD-SEM/install/shared_objects:/home/betelgeuse/AD-SEM/install/ad_juno:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/build/unicycle_sim -- -j8 -l8
+[16.407s] Invoking command in '/home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/build/unicycle_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/betelgeuse/AD-SEM/install/shared_objects:/home/betelgeuse/AD-SEM/install/ad_juno:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/build/unicycle_sim
+[16.426s] -- Install configuration: ""
+[16.427s] -- Execute custom install script
+[16.429s] -- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/lib/unicycle_sim/unicycle_simulator
+[16.430s] -- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/ament_index/resource_index/package_run_dependencies/unicycle_sim
+[16.431s] -- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/ament_index/resource_index/parent_prefix_path/unicycle_sim
+[16.431s] -- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/unicycle_sim/environment/ament_prefix_path.sh
+[16.432s] -- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/unicycle_sim/environment/ament_prefix_path.dsv
+[16.433s] -- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/unicycle_sim/environment/path.sh
+[16.434s] -- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/unicycle_sim/environment/path.dsv
+[16.435s] -- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/unicycle_sim/local_setup.bash
+[16.435s] -- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/unicycle_sim/local_setup.sh
+[16.436s] -- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/unicycle_sim/local_setup.zsh
+[16.437s] -- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/unicycle_sim/local_setup.dsv
+[16.437s] -- Symlinking: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/unicycle_sim/package.dsv
+[16.463s] -- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/ament_index/resource_index/packages/unicycle_sim
+[16.464s] -- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/unicycle_sim/cmake/unicycle_simConfig.cmake
+[16.464s] -- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/unicycle_sim/cmake/unicycle_simConfig-version.cmake
+[16.465s] -- Up-to-date symlink: /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/install/unicycle_sim/share/unicycle_sim/package.xml
+[16.469s] Invoked command in '/home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/build/unicycle_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/betelgeuse/AD-SEM/install/shared_objects:/home/betelgeuse/AD-SEM/install/ad_juno:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/build/unicycle_sim

@@ -1,0 +1,1 @@
+/home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/build/unicycle_sim/ament_cmake_environment_hooks/local_setup.sh
