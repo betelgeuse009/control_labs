@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/betelgeuse/Desktop/Courses/Control of Mobile Robots/labs/lab03/ros2_ws/build/unicycle_sim/unicycle_simulator" "TARGETS" "unicycle_simulator" "DESTINATION" "lib/unicycle_sim")
